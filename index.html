@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Enquiry</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <form action="https://formspree.io/f/mayzdkbl" method="post" id="form">
+        <h2>Enquiry form</h2>
+        <div>
+          <label for="Name">Name</label>
+          <input name="Name" type="text" required="" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input name="Email" id="email" type="email" required="" />
+        </div>
+        <div>
+          <label>MobileNo</label>
+          <input name="Mobile no" id="number" type="number" required="" />
+        </div>
+        <div>
+          <label>Address</label>
+          <input name="Address" id="address" type="text" required="" />
+        </div>
+        <div onclick="submit()"><button type="submit">Submit</button></div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  --></body>
+</html>
